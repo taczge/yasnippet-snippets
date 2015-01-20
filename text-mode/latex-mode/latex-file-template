@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: template of new latex file.
+# --
+% -*- coding: euc-jp; -*-
+%
+$0
+%
+% end of file

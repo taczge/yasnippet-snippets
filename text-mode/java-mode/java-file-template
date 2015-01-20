@@ -1,0 +1,13 @@
+# -*- mode: ssnippet -*-
+# name: template of *.java file
+# --
+/*
+ * -*- coding: utf-8; -*-
+ * Time-stamp: <2012/5/18 14:04:28 JST tnagai>
+ */
+
+public class `(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))` {
+$0
+}
+
+/* end of file */

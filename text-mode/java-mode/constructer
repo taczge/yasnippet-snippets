@@ -1,0 +1,10 @@
+# -*- mode: ssnippet -*-
+# name: template of constructer
+# --
+/**
+ * コンストラクタ
+ * @param
+ */
+ public `(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`() {
+ $0
+ }

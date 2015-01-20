@@ -1,0 +1,12 @@
+# -*- mode: ssnippet -*-
+# name: template setter
+# --
+/**
+ * セッター
+ * @param
+ * @exception
+ * @throws
+ */
+ public void set$1($2) {
+ $0
+ }

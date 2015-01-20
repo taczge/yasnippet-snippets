@@ -1,0 +1,7 @@
+#name : while (...) { ... }
+# --
+StringTokenizer ${1:st} = new StringTokenizer(${2:str}, "${3:delim}");
+
+while (st.hasMoreTokens()) {
+    st.nextToken();$0
+}

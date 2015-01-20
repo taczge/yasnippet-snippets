@@ -1,0 +1,17 @@
+# -*- mode:snippet -*-
+# name: template of new *.h file
+# --
+/*
+ * $Id:$
+ * -*- coding: utf-8; -*-
+ * Time-stamp: <2012/2/17 05:03:29 JST tnagai>
+ */
+
+#ifndef ${1:_`(upcase (file-name-nondirectory (file-name-sans-extension (buffer-file-name))))`_H_}
+#define $1
+
+$0
+
+#endif /* $1 */
+
+/* end of file */

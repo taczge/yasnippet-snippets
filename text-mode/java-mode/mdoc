@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: javadoc forms of method
+# --
+/**
+ * $0
+ * @param
+ * @return
+ * @exception
+ * @throws
+ */

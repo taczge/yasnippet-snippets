@@ -1,0 +1,8 @@
+#name : while (...) { ... }
+# --
+Pattern pat = Pattern.compile("${1:regex}");
+Matcher mat = pat.matcher(${2:input});
+
+if(mat.find() == false){
+    $0
+}

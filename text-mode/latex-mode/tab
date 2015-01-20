@@ -1,0 +1,18 @@
+#name : tab
+# --
+%
+\begin{table}[${1:!htb}]
+\caption{${2:caption}}
+\label{tbl:${3:label}}
+\begin{center}
+\begin{tabular}{${4:rows}}
+\toprule
+$0
+\\
+\midrule
+\\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{table}%
+%

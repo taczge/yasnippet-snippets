@@ -1,0 +1,13 @@
+# -*- mode: ssnippet -*-
+# name: template method
+# --
+/**
+ * メソッド
+ * @param
+ * @return
+ * @exception
+ * @throws
+ */
+ public $1 $2($3) {
+ $0
+ }

@@ -1,0 +1,13 @@
+#name : PrintWriter
+# --
+try {
+    File f = new File(path);
+    FileWriter fw = new FileWriter(f);
+    BufferedWriter bw = new BufferedWriter(fw);
+    PrintWriter pw = new PrintWriter(bw);
+
+    pw.print("");
+    pw.close();
+}catch(IOException e){
+    System.out.println(e);
+}

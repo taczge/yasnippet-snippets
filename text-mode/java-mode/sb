@@ -1,0 +1,3 @@
+#name : BufferedReader
+# --
+StringBuilder ${1:sb} = new StringBuilder();$0

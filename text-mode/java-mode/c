@@ -1,0 +1,4 @@
+# -*- mode: snippet -*-
+# name: my-def
+# --
+class $0
