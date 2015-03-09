@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: readline
+# key: readline
+# --
+${$$(yas-choose-value '("filename := os.Args[1]
+\tfp, err := os.Open(filename)
+\tif err != nil {
+\t	panic(err)
+\t}
+\tdefer fp.Close()
+
+\tscanner := bufio.NewScanner(fp)" "scanner := bufio.NewScanner(os.Stdin)"))};
+for scanner.Scan() {
+	fmt.Println(scanner.Text())
+}
+if err := scanner.Err(); err != nil {
+	panic(err)
+}
