@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: method
+# key: method
+# --
+func (${1:this} *`(extract-strcture-name)`) ${2:name}($3) $4 {
+  $0
+}
