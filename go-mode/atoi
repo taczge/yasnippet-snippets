@@ -2,4 +2,5 @@
 # name: atoi
 # key: atoi
 # --
-${1:s}, ${2:_} := strconv.Atoi(${3:n})$0
+${1:s}, ${2:_} := strconv.Atoi(${3:n})
+$0
