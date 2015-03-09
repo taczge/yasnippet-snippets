@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: readline
+# name: read file line by line
 # key: readline
 # --
 ${$$(yas-choose-value '("filename := os.Args[1]

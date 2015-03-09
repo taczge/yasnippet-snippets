@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: atoi
+# name: strconv.Atoi(...)
 # key: atoi
 # --
 ${1:s}, ${2:_} := strconv.Atoi(${3:n})
